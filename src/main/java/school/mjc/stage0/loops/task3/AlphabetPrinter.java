@@ -2,5 +2,10 @@ package school.mjc.stage0.loops.task3;
 
 public class AlphabetPrinter {
     public void printAlphabet() {
+        int a = 'a';
+        int z = 'z';
+        for (int i = a; i <= z; i++) {
+            System.out.println((char)i);
+        }
     }
 }
